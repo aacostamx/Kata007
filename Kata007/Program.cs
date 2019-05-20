@@ -9,7 +9,7 @@ namespace Kata007
         static void Main(string[] args)
         {
             Console.WriteLine($"Using server GC = {GCSettings.IsServerGC}");
-            //BenchmarkRunner.Run<Benchmarks.Harness>();
+            BenchmarkRunner.Run<Benchmarks.Harness>();
         }
     }
 }
